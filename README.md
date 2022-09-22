@@ -26,3 +26,35 @@ The design specification does meet the current manufacturing data. The variance 
 
 ## T-Tests on Suspension Coils
 
+An overview of the One Sample t-test of the suspension coils across all of the manufacturing lots returns a p-value result of .06 which concludes that we are unable to reject the null hypothesis.
+
+![Summay Data](https://user-images.githubusercontent.com/106495422/191802715-bcea0921-d99d-4eda-8ce9-017d68ee2399.png)
+
+The t-test for Lot 1 returned a p-value of 1, which is above the significance level of .05 percent.
+
+![lot1](https://user-images.githubusercontent.com/106495422/191802350-517cf122-cfd0-4af4-9d5e-199c4c4ae880.png)
+
+The t-test for Lot 2 returned a p-value of .60, which is also above the significance level of .05 percent.
+
+![lot2](https://user-images.githubusercontent.com/106495422/191802383-e9661768-e8df-47dc-80be-248f69540824.png)
+
+The t-test for Lot 3 returned a p-value of .04, which is below the significance level of .05 percent leaving us to reject the null hypothesis.
+
+![lot3](https://user-images.githubusercontent.com/106495422/191802454-9234e2c3-a199-47ae-8898-67f4d34557b9.png)
+
+## Study Design: MechaCar vs Competition
+
+In order to see how MechaCar performs against the competition, 3 metrics of importance to the client should be looked at. The cost of the product, the city or highway fuel efficiency and the safety rating.
+
+One metric to test would be the fuel efficiency compared to the competitors as many consumers wish their vehicle always take them further or as competitors are also switching to sustainable energy with electric cars.
+
+The Null Hypothesis would be that MechaCars have no difference in price on their fuel efficiency compared to their competitors. The Alternative Hypothesis is that MechaCars have different, if not better price on their fuel efficiency compared to other competitors.
+
+In order to test our hypothesis, we would use a One-Sample t-Test as we would like to see if there is a statistical difference between the mean of the sample and the mean of a population distribution.
+
+To conduct this study, we will need the MechaCars fuel efficiency data as well as the mean data from its competitors.
+
+
+
+
+
